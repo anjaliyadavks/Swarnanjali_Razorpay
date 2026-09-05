@@ -1,0 +1,42 @@
+{
+  "BANK_DOWNTIME": [
+    "Issuer node down. Unable to reach HDFC switch.",
+    "Bank of Baroda gateway timeout (504).",
+    "Connection refused by ICICI core banking system."
+  ],
+  "CARD_EXPIRED": [
+    "Card expired. Do not honor.",
+    "Expiration date invalid or passed.",
+    "Issuer decline: Card expired."
+  ],
+  "INSUFFICIENT_FUNDS": [
+    "Declined: Insufficient funds in account.",
+    "Low balance. Cannot authorize transaction.",
+    "Issuer decline (51): Not sufficient funds."
+  ],
+  "RISK_BLOCK": [
+    "Blocked by internal risk engine: High velocity.",
+    "Fraud check failed. IP and billing mismatch.",
+    "Card flagged for suspicious activity by issuer."
+  ],
+  "UPI_TIMEOUT": [
+    "NPCI switch timeout: No response received from PSP (SBI) for VPA.",
+    "UPI intent timeout. User took too long to approve.",
+    "No response from remitter bank."
+  ],
+  "OTP_AUTH_FAILURE": [
+    "Authentication failed. Customer provided incorrect OTP.",
+    "3D Secure verification failed.",
+    "OTP expired before entry."
+  ],
+  "LIMIT_EXCEEDED": [
+    "Transaction amount exceeds daily permitted limit for this account.",
+    "Velocity limit exceeded (Code: 61).",
+    "Max transaction limit reached."
+  ],
+  "NETWORK_ERROR": [
+    "Transient network disruption during TLS handshake.",
+    "Gateway read timeout.",
+    "Upstream service unavailable (502 Bad Gateway)."
+  ]
+}
